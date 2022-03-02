@@ -1,0 +1,27 @@
+:root {
+	--color-bg: 34, 38, 50;
+	--color-brand-primary: 245, 75, 100;
+	--color-brand-secondary: 247, 131, 97;
+	--color-base-primary: 36, 42, 56;
+	--color-base-secondary: 28, 34, 47;
+	--color-text-primary: 255, 255, 255;
+	--color-text-secondary: 78, 89, 110;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	color: rgba(var(--color-text-secondary), 1);
+	background-color: rgba(var(--color-bg), 1);
+	padding: 0;
+	margin: auto;
+	font-family: 'Roboto', sans-serif;
+}
